@@ -1,0 +1,23 @@
+[project]
+name = "raw-datas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "alr.ramezani", email = "alr.ramezani@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "google-cloud-bigquery>=3.44.0",
+    "lxml>=6.1.2",
+    "polars>=1.44.1",
+    "pyarrow>=25.0.1",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+raw-datas = "raw_datas:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
