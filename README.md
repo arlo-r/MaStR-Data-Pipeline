@@ -47,7 +47,7 @@ Make sure you have authenticated your environment with Google Cloud and have per
 This project uses [uv](https://github.com/astral-sh/uv) for fast package management.
 
 ```
-git clone https://github.com/
+git clone https://github.com/arlo-r/MaStR-Data-Pipeline
 cd raw-datas
 uv sync
 ```
